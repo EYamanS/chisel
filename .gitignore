@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build artifacts / exports
+exports/
+dist/
+
+# keep the example env template (but never real .env.local)
+!.env.local.example

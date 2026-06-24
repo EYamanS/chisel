@@ -1,26 +1,70 @@
 {
-  "name": "3d-test",
+  "name": "chisel-mcp",
   "version": "0.1.0",
-  "private": true,
+  "description": "Chisel — an MCP server that lets AI agents build, edit, render, and export real 3D models from primitives and boolean CSG. Headless, GPU-free.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "3d",
+    "csg",
+    "modeling",
+    "gltf",
+    "obj",
+    "three.js",
+    "agent",
+    "ai"
+  ],
+  "license": "MIT",
+  "author": "Emir Yaman Sivrikaya",
+  "homepage": "https://github.com/EYamanS/chisel#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EYamanS/chisel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EYamanS/chisel/issues"
+  },
+  "type": "commonjs",
+  "bin": {
+    "chisel-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
+    "mcp": "tsx src/mcp/server.ts",
+    "build:mcp": "tsup",
+    "prepare": "tsup",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.2.9",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "@modelcontextprotocol/sdk": "^1.29.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.184.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "next": "16.2.9",
+    "openai": "^6.44.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "tailwindcss": "^4",
+    "three": "^0.184.0",
+    "three-bvh-csg": "^0.0.18",
+    "tsup": "^8.5.0",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
