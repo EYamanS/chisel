@@ -1,5 +1,7 @@
 # Chisel
 
+[![Buy me a coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20me%20a%20coffee-support-FF813F)](https://buy.polar.sh/polar_cl_v4ZIuYffdbN9E9iVLmlHh1W5sxAmxvqNVqIn81048FX)
+
 **An MCP server that lets AI agents build, edit, render, and export real 3D models** —
 from geometric primitives and boolean CSG. No diffusion, no GPU, no browser. The agent
 calls modeling tools, gets back a multi-view render to *see* its work, iterates, and
@@ -138,6 +140,12 @@ npm run build:mcp   # bundle the self-contained binary -> dist/server.js
 npm run dev         # web playground
 npm run build       # production build of the web app
 ```
+
+## Support
+
+Built this in the open. If it saved you time, a one-off tip keeps it maintained:
+
+[![Buy me a coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20me%20a%20coffee-support%20this%20project-FF813F?style=for-the-badge)](https://buy.polar.sh/polar_cl_v4ZIuYffdbN9E9iVLmlHh1W5sxAmxvqNVqIn81048FX)
 
 ## License
 
