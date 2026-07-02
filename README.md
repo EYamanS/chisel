@@ -150,3 +150,7 @@ Built this in the open. If it saved you time, a one-off tip keeps it maintained:
 ## License
 
 MIT © Emir Yaman Sivrikaya
+
+---
+
+<sub><b>Keywords:</b> AI 3D modeling · text to 3D · MCP 3D model generator · generate 3D models with AI · constructive solid geometry (CSG) · procedural 3D · headless glTF / GLB / OBJ export · LLM 3D-modeling agent.</sub>
